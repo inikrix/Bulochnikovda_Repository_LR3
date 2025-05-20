@@ -47,7 +47,12 @@ void calcS3() {
 }
 
 void calcP3() {
-
+    if (a == 0) {
+        cout << "Ошибка: число A не введено или равно 0" << endl;
+        return;
+    }
+    int perimeter = 3 * a;
+    cout << "Периметр равностороннего треугольника со стороной " << a << " равен: " << perimeter << endl;
 }
 
 struct MenuItem{
