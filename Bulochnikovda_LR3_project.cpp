@@ -38,7 +38,12 @@ void enterA() {
 }
 
 void calcS3() {
-
+    if (a == 0) {
+        cout << "Ошибка: число A не введено или равно 0" << endl;
+        return;
+    }
+    double area = (pow(a, 2) * sqrt(3)) / 4;
+    cout << "Площадь равностороннего треугольника со стороной " << a << " равна: " << area << endl;
 }
 
 void calcP3() {
