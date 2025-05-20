@@ -33,7 +33,8 @@ void enterNumber(int& varLink, string label){
 }
 
 void enterA() {
-
+    enterNumber(a, "A");
+    cout << "Число A успешно сохранено: A = " << a << endl;
 }
 
 void calcS3() {
